@@ -1,6 +1,5 @@
 (ns minty.core
-  (:require [clojure.core.typed :as t]
-            [minty.check :as check]))
+  (:require [clojure.core.typed :as t]))
 
 (t/defn ^:no-check typed-args-vec?
   [args-vec]
